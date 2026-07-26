@@ -32,53 +32,46 @@ This project is based on the academic project *"AI Based Smart Video Player With
 ---
 
 ## 📁 Folder Structure
-smart_video_player/
-├── app.py # Main Flask application
-├── requirements.txt # Python dependencies
-├── static/
-│ ├── css/
-│ │ └── style.css
-│ └── uploads/ # Uploaded videos are stored here
-└── templates/
-├── login.html
-├── upload.html
-└── player.html
+
+    smart_video_player/
+    ├── app.py                     # Main Flask application
+    ├── requirements.txt           # Python dependencies
+    ├── static/
+    │   ├── css/
+    │   │   └── style.css
+    │   └── uploads/                # Uploaded videos are stored here
+    └── templates/
+        ├── login.html
+        ├── upload.html
+        └── player.html
 
 ---
 
 ## ⚙️ Installation & Setup
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/your-username/smart-video-player-face-recognition.git
-cd smart-video-player-face-recognition
-```
+    git clone https://github.com/your-username/smart-video-player-face-recognition.git
+    cd smart-video-player-face-recognition
 
 ### 2. Create a virtual environment (recommended)
-```bash
-python -m venv venv
-```
-Activate it:
-```bash
-# Windows
-venv\Scripts\activate
+    python -m venv venv
 
-# macOS / Linux
-source venv/bin/activate
-```
+Activate it:
+
+    # Windows
+    venv\Scripts\activate
+
+    # macOS / Linux
+    source venv/bin/activate
 
 ### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
+    pip install -r requirements.txt
 
 ### 4. Run the application
-```bash
-python app.py
-```
+    python app.py
 
 ### 5. Open in browser
-http://127.0.0.1:5000
+    http://127.0.0.1:5000
 
 ---
 
